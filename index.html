@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+            <meta name="viewport" content="initial-scale=1">
             <style type="text/css">
+            /*Reset CSS*/
+            * {
+                margin: 0;
+                padding: 0;
+                }
+
             h1 {
+                padding-top: 2%;
+                padding-bottom: 2%;
                 text-align: center;
                 color:white;
                 background-image:url(img/background.jpg);
@@ -18,12 +27,37 @@
                 color : black;
                 background-color: rgb(212, 211, 211);
             }
- 
+            h3 {
+                background-color:#0B0B61;
+                color:white;
+                text-indent: 20%;
+            }
+            h4 {
+                background-color:#0B0B61;
+                color:white;
+                text-align: right;
+            }
+            button{
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+
             </style>
     </head>
     <body>
-                <div class=""></div>
+        <header>
+                <h3>OhMyCats !</h3>
                 <h1>Adoptez un chat trop bon !</h1>
+
+        </header>
+        <main>
+
                 <form action="POST" method="post">
                     <div>
                         <label for="titre">Choix du chat : </label><br>
@@ -36,7 +70,7 @@
                     <button type="bouton">Envoyer</button> 
                 </form>
                 <img src="img/chat.jpg" style="max-width:100%;height:auto;"> 
-
+        </main>
 
     </body>
     <footer>
@@ -52,11 +86,8 @@
             Quod in homine multo est evidentius, primum ex ea caritate quae est inter natos et parentes, quae dirimi nisi detestabili scelere
              non potest; deinde cum similis sensus exstitit amoris, si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo 
              quasi lumen aliquod probitatis et virtutis perspicere videamur.</p>
-
-
-
     </footer>            
-        
+        <h4>@OhMyCats</h4>
 
        
     
